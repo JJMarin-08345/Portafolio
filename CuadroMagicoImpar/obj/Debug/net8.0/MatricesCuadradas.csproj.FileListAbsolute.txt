@@ -1,0 +1,42 @@
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\MatricesCuadradas\bin\Debug\net8.0\MatricesCuadradas.exe
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\MatricesCuadradas\bin\Debug\net8.0\MatricesCuadradas.deps.json
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\MatricesCuadradas\bin\Debug\net8.0\MatricesCuadradas.runtimeconfig.json
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\MatricesCuadradas\bin\Debug\net8.0\MatricesCuadradas.dll
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\MatricesCuadradas\bin\Debug\net8.0\MatricesCuadradas.pdb
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\MatricesCuadradas\obj\Debug\net8.0\MatricesCuadradas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\MatricesCuadradas\obj\Debug\net8.0\MatricesCuadradas.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\MatricesCuadradas\obj\Debug\net8.0\MatricesCuadradas.AssemblyInfo.cs
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\MatricesCuadradas\obj\Debug\net8.0\MatricesCuadradas.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\MatricesCuadradas\obj\Debug\net8.0\MatricesCuadradas.dll
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\MatricesCuadradas\obj\Debug\net8.0\refint\MatricesCuadradas.dll
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\MatricesCuadradas\obj\Debug\net8.0\MatricesCuadradas.pdb
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\MatricesCuadradas\obj\Debug\net8.0\MatricesCuadradas.genruntimeconfig.cache
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\MatricesCuadradas\obj\Debug\net8.0\ref\MatricesCuadradas.dll
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\CuadroMagicoImpar\bin\Debug\net8.0\MatricesCuadradas.exe
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\CuadroMagicoImpar\bin\Debug\net8.0\MatricesCuadradas.deps.json
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\CuadroMagicoImpar\bin\Debug\net8.0\MatricesCuadradas.runtimeconfig.json
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\CuadroMagicoImpar\bin\Debug\net8.0\MatricesCuadradas.dll
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\CuadroMagicoImpar\bin\Debug\net8.0\MatricesCuadradas.pdb
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\CuadroMagicoImpar\obj\Debug\net8.0\MatricesCuadradas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\CuadroMagicoImpar\obj\Debug\net8.0\MatricesCuadradas.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\CuadroMagicoImpar\obj\Debug\net8.0\MatricesCuadradas.AssemblyInfo.cs
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\CuadroMagicoImpar\obj\Debug\net8.0\MatricesCuadradas.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\CuadroMagicoImpar\obj\Debug\net8.0\MatricesCuadradas.dll
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\CuadroMagicoImpar\obj\Debug\net8.0\refint\MatricesCuadradas.dll
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\CuadroMagicoImpar\obj\Debug\net8.0\MatricesCuadradas.pdb
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\CuadroMagicoImpar\obj\Debug\net8.0\MatricesCuadradas.genruntimeconfig.cache
+C:\Users\USUARIO\Pictures\Cosas Programación\PruebasCSharp\CuadroMagicoImpar\obj\Debug\net8.0\ref\MatricesCuadradas.dll
+C:\Users\USUARIO\Documents\GitHub\Portafolio\CuadroMagicoImpar\bin\Debug\net8.0\MatricesCuadradas.exe
+C:\Users\USUARIO\Documents\GitHub\Portafolio\CuadroMagicoImpar\bin\Debug\net8.0\MatricesCuadradas.deps.json
+C:\Users\USUARIO\Documents\GitHub\Portafolio\CuadroMagicoImpar\bin\Debug\net8.0\MatricesCuadradas.runtimeconfig.json
+C:\Users\USUARIO\Documents\GitHub\Portafolio\CuadroMagicoImpar\bin\Debug\net8.0\MatricesCuadradas.dll
+C:\Users\USUARIO\Documents\GitHub\Portafolio\CuadroMagicoImpar\bin\Debug\net8.0\MatricesCuadradas.pdb
+C:\Users\USUARIO\Documents\GitHub\Portafolio\CuadroMagicoImpar\obj\Debug\net8.0\MatricesCuadradas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\GitHub\Portafolio\CuadroMagicoImpar\obj\Debug\net8.0\MatricesCuadradas.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\GitHub\Portafolio\CuadroMagicoImpar\obj\Debug\net8.0\MatricesCuadradas.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\GitHub\Portafolio\CuadroMagicoImpar\obj\Debug\net8.0\MatricesCuadradas.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\GitHub\Portafolio\CuadroMagicoImpar\obj\Debug\net8.0\MatricesCuadradas.dll
+C:\Users\USUARIO\Documents\GitHub\Portafolio\CuadroMagicoImpar\obj\Debug\net8.0\refint\MatricesCuadradas.dll
+C:\Users\USUARIO\Documents\GitHub\Portafolio\CuadroMagicoImpar\obj\Debug\net8.0\MatricesCuadradas.pdb
+C:\Users\USUARIO\Documents\GitHub\Portafolio\CuadroMagicoImpar\obj\Debug\net8.0\MatricesCuadradas.genruntimeconfig.cache
+C:\Users\USUARIO\Documents\GitHub\Portafolio\CuadroMagicoImpar\obj\Debug\net8.0\ref\MatricesCuadradas.dll
