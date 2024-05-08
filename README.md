@@ -1,1 +1,7 @@
-In this repositorie you can find projects in differents languages, each branch have a programming language 
+Este repositorio contiene proyectos realizados en:
+    - Java
+    - Python
+    - C#
+    - Framework ASP.NET
+
+Cada rama contiene los diferentes lenguajes y sus diferentes proyectos

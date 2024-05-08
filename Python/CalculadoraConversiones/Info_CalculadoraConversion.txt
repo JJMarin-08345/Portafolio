@@ -1,2 +1,0 @@
-Esta calculadora hace conversiones sencillas, se que el mismo python ya posee estos métodos, pero fué interesante 
-hacerlos y ver su funcionamiento, sobre todo el manejo de posiciones y demás

@@ -1,3 +1,0 @@
-Es lenta para funcionar, sobre todo el de pasar de un word a pdf, viceversa es más eficaz, aunque yo
-lo hice más bien para descubrir un poco como funcionaba la interfaz en python y demás, asi que no 
-le hice mucha cosa; usé librerias para las conversiones. La uso cuando tengo archivos pequeños para convertirlos
