@@ -1,0 +1,204 @@
+from ast import Eq
+import FunFuncionamiento as Sopa
+
+contador=0
+
+#FUNCION ENCARGADA DE ENCONTRAR LAS PALABRAS QUE SE LE ENCOMIENDEN (POR FILAS)
+def EncontrarPalabra(matrizSL, palabras):
+    global contador
+    LetrasEncontradas=[] 
+    posicionesLetras=[]
+    isEncontrada=False
+    cnaSeparada=Sopa.SepararUnaFilaDeString(palabras)
+    cnaInversa=Sopa.SepararUnaFilaDeString(palabras[::-1])#Para invertir la cadena
+
+    for f in range(len(matrizSL)):
+        
+        for c in range(len(matrizSL[0])):
+            # if(len(matrizSL[0])-1==c):
+            #     #Esta condicion revisa si está en la última columna
+            #     #Además la palabra no debe
+            #     print(f"linea 18 {isEncontrada}")
+            #     LimpiarListaDePalabrasYContador(LetrasEncontradas,posicionesLetras)
+                #print("Linea 20, encargada de revisar que no se este en la ultima columna \n contador debe ser 0, contador es "+str(contador))
+            #print(f"index matriz: {len(matrizSL)-1} index i: {f} \n\n")
+            #print(f"posiciones ({f},{c}) -- LETRAS {matrizSL[f][c]} \n el contador {con} PALABRAS {cnaSeparada[con]} \n\n")
+            #print(f"posicion es : ({i},{j}) su letra es: {matrizSL[i][j]}")
+            # print(f"Letras en la posicion ({f},{c}) {matrizSL[f][c]} ")
+            # print(f" La matriz en la posicion ({f},{c}) tiene las letras {matrizSL[f][c]} y es {matrizSL[f][c]==cnaSeparada[contador]}, su igualdad")
+            if(matrizSL[f][c]==cnaSeparada[contador]):
+                # print(f"Matriz en la posicion de i={f} j={c} >>> {matrizSL[f][c]}")
+                # print(f"La cadena separada: {cnaSeparada[con]}")
+                LetrasEncontradas.append(matrizSL[f][c])
+                # print(f"Palabras Halladas {palabras} en la posicion ({f},{c})\n")
+                posicionesLetras.append([f,c])
+                contador+=1
+                print(f"la siguiente letra hallada es: {matrizSL[f][c]}, las palabras halladas son: {LetrasEncontradas}")
+                # print(f"Entre a la linea 25 {contador} ")
+                if(c<(len(matrizSL[0])-1)):
+                    if(matrizSL[f][c+1]==cnaSeparada[0] and contador==1):
+                        #Preguntamos si la siguiente letra es la misma a la primera posicion, además 
+                        #el contador (con) debe ser igual a 1, para que sea dentro de la misma iteración
+                        # si es cierto procede a limpiar lo que habia antes y lo agrega nuevamente
+                        # print(f"ESTA ES LA LETRA HALLADA: {matrizSL[f][c+1]}")
+                        LimpiarListaDePalabrasYContador(LetrasEncontradas,posicionesLetras)
+                        print("Linea 39 el contador debe ser 0, el contador es: "+str(contador))
+            
+            else:
+                LimpiarListaDePalabrasYContador(LetrasEncontradas,posicionesLetras)
+            
+
+            if(contador==len(cnaSeparada)):
+                print("El contador es igual a la cadena separada")
+                isEncontrada=True
+                break
+        if(isEncontrada==True):
+            contador=0
+            break
+        else:
+            LimpiarListaDePalabrasYContador(LetrasEncontradas,posicionesLetras)
+
+        if(len(matrizSL)-1==f):
+            #Es decir, ya recorrio todas las filas
+            contador=0
+            BuscarPorColumna(matrizSL,palabras)
+            break
+    
+    ImprimirSopaDeLetrasResuelta(matrizSL,posicionesLetras)
+
+
+#FUNCION PARA ENCONTRAR LA(S) PALABRA(S) QUE SE LE ENCOMIENDEN (POR COLUMNAS)
+def BuscarPorColumna(matrizSL, cadena):
+    global contador
+    cdnaSeparada=Sopa.SepararUnaFilaDeString(cadena)
+    cdnaInversa=Sopa.SepararUnaFilaDeString(cadena[::-1])#Para obtener la cadena invertida
+    LetrasEncontradas=[]
+    posicionesLetras=[]
+    isEncontrada=False
+
+    print(f"\n\n Cadena Invertida por columnas {cdnaInversa}")
+
+    for f in range(len(matrizSL)):
+        for c in range(len(matrizSL[0])):
+            # if(len(matrizSL)-1==f):
+                #Esta en la ultima fila
+                # LimpiarListaDePalabrasYContador(LetrasEncontradas,posicionesLetras)
+                # print(f"Entre a la linea 74, estoy en la fila {f}")
+            if(matrizSL[c][f]==cdnaSeparada[contador]):
+                # print(f"\nEncontre una letra en la posicion ({c},{f}), \n la letra es: {matrizSL[c][f]}")
+                # print(f"Este es el contador que hay: {contador} y esta es la cadena en esa posicion: {cadena[contador]} ")
+                LetrasEncontradas.append(matrizSL[c][f])
+                posicionesLetras.append([c,f])
+                contador+=1
+                # print(f"Estamos en la fila y la columna: ({f},{c}) ")
+                # print(f"Estas son las palabras halladas por ahora: {LetrasEncontradas} \n")
+                # try:
+                if(f<len(matrizSL)-1):
+                    #Necesitamos saber si no está en la ultima fila para poder sumarle uno a f que es la fila
+                    if(matrizSL[c][f+1]==cdnaSeparada[0] and contador==1):
+                        print("Entre")
+                        #Esta es la 
+                        LimpiarListaDePalabrasYContador(LetrasEncontradas,posicionesLetras)
+                        # print()
+                    # print(f"Esta palabra fue hallada una fila mas abajo: {matrizSL[c][f+1]} ")
+                # except:
+                #     None
+
+            # elif(matrizSL[c][f]==cdnaInversa[contador]):
+            #     LetrasEncontradas.append(matrizSL[c][f])
+            #     posicionesLetras.append([c,f])
+            #     contador+=1
+            #     print(f"Entre al primer inverso {contador} ")
+            #     print(f"posiciones en las que estoy c:f==>({c},{f}) esta es la letra: {matrizSL[c][f]} ")
+            #     # try:
+            #     if(f<len(matrizSL)-1):
+            #         #Preguntamos si f es menor a a la Matriz ya que si es igual y le sumamos uno, el sistema se rompe
+            #         # print("Aun puede entrar, f no es menor que la matriz")
+            #         # print(f"Esta es la matriz una fila mas abajo {matrizSL[c][f+1]} ")
+            #         if(matrizSL[c][f+1]==cdnaInversa[0] and contador==1):
+            #             # print("Entre")
+            #             # print(f"esta es la posicion mas adelante de la inversa: {matrizSL[c][f+1]} ")
+            #             LimpiarListaDePalabrasYContador(LetrasEncontradas,posicionesLetras)
+
+            #     # except:
+                    # None
+            else:
+                LimpiarListaDePalabrasYContador(LetrasEncontradas,posicionesLetras)
+
+            if(len(LetrasEncontradas)==len(cdnaSeparada)):
+                contador=0
+                isEncontrada=True
+                print("Ya se encontro por columnas")
+                break
+        if(isEncontrada):
+            break
+        else:
+            LimpiarListaDePalabrasYContador(LetrasEncontradas,posicionesLetras)
+        
+                
+    ImprimirSopaDeLetrasResuelta(matrizSL,posicionesLetras)
+            
+
+#FUNCION PARA IMPRIMIR LA SOPA DE LETRAS YA RESUELTA
+def ImprimirSopaDeLetrasResuelta(matrizSL,posicionesLetras):
+    '''La lista de posicionesPalabras, nos servira para ubicar en qué posiciones están las 
+    letras encontradas'''
+    posi=0
+    posj=0
+    for i in range(len(posicionesLetras)):
+            for j in range(len(posicionesLetras[0])):
+                try:
+                    posi=posicionesLetras[i][j]
+                    posj=posicionesLetras[i][j+1]
+                    matrizSL[posi][posj]="*"
+                    #print("posicion i con j= "+str(posi))
+                    # print()
+                except:
+                    break
+    print("-----------------------------------------")
+    Sopa.ImprimirSopaDeLetras(matrizSL)
+
+#FUNCION PARA BUSCAR EN LA SOPA DE LETRAS EN DIAGONAL
+def BuscarPorDiagonal(matrizSL, cadena):
+    None
+
+#FUNCION PARA PEDIR LAS PALABRAS Y LUEGO MANDARLAS A BUSCAR
+def pedirPalabras(canCaracteres):
+    palabras=list()
+    while(True):
+        print("\nPara cancelar escriba 'SALIR'\n")
+        palabra=input(f"Digite la palabra a buscar sin excederse de los {canCaracteres} caracteres:\n ").upper()
+        
+        if(palabra!="SALIR"):
+            if(len(palabra)<=canCaracteres):
+                palabras.append(palabra)
+            else:
+                print("\n--¡ALERTA!--\n"+
+                    "La palabra excede las dimensiones de la Sopa de Letras\n")
+                continue
+        else:
+            break   
+    print("\n\n")
+    return palabras
+        
+def LimpiarListaDePalabrasYContador(LetrasEncontradas, PosicionesLetras ):
+    global contador
+    LetrasEncontradas.clear()
+    PosicionesLetras.clear()
+    contador=0
+
+
+Por el momento todo funciona de manera bien, falta integrar la busqueda en diagonal y la busqueda de la 
+palabra pero invertida
+
+if(matrizSL[f][c]==cnaInversa[contador]):
+    LetrasEncontradas.append(matrizSL[f][c])
+    posicionesLetras.append([f,c])
+    contador+=1
+
+    if(c<(len(matrizSL[0])-1)):
+
+        if(matrizSL[f][c+1]==cnaInversa[0] and contador==1):
+            LimpiarListaDePalabrasYContador(LetrasEncontradas,posicionesLetras)
+
+Con ese código encontramos la palabra invertida por fila, pero no se como aplicarla bien
