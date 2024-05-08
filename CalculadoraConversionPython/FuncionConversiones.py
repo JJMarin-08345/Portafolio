@@ -1,4 +1,5 @@
-import replit
+# import replit
+
 def menu():
   opcion=""
   print("BIENVENIDO AL SISTEMA GENERAL DE CONVERSIONES")
@@ -15,53 +16,53 @@ def menu():
   opcion=input("Escriba la letra la cual se relacione a su opcion: \n")
   opcion=opcion.upper()
   if opcion=="A" or opcion=="1": 
-    replit.clear()
+    # replit.clear()
     print("*** DECIMAL A BINARIO ***")
     print()
     decimal_binario()
     print("")
  
   elif opcion=="B" or opcion=="2":
-    replit.clear()
+    # replit.clear()
     print("*** BINARIO A DECIMAL ***")
     print()
     binario_decimal()
     print("")
   
   elif opcion=="C" or opcion=="3":
-    replit.clear()
+    # replit.clear()
     print("*** DECIMAL A OCTAL ***")
     print()
     decimal_octal()
     print("")
    
   elif opcion=="D" or opcion=="4":
-    replit.clear()
+    # replit.clear()
     print("*** OCTAL A DECIMAL ***")
     print()
     octal_decimal()
     print("")
    
   elif opcion=="E" or opcion=="5":
-    replit.clear()
+    # replit.clear()
     print("*** DECIMAL A HEXADECIMAL ***")
     print()
     decimal_hexadecimal()
     print("")
    
   elif opcion=="F" or opcion=="6":
-    replit.clear()
+    # replit.clear()
     print("*** HEXADECIMAL A DECIMAL ***")
     print()
     hexadecimal_decimal()
     print("")
 
   elif opcion=="G" or opcion=="7":
-    replit.clear()
+    # replit.clear()
     print()
     print("HASTA LA PRÓXIMA CAMARADA, VUELVE PRONTO")
   else:
-    replit.clear()
+    # replit.clear()
     print("Sólo puedes escoger entre la A y la G o su respectiva numeración")
     print("")
     print("-Por favor escoga alguna de las opciones-")
@@ -271,5 +272,5 @@ def esnum_o_no(nume):
 def reset():
   print()
   input("Presione una tecla para regresar al menú")
-  replit.clear()
+  # replit.clear()
   menu()
