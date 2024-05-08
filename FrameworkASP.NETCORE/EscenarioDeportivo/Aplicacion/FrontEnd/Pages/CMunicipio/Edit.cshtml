@@ -1,0 +1,38 @@
+﻿@page
+@model FrontEnd.Pages.CMunicipio.EditModel
+@{
+    ViewData["Title"]="Editar Municipios";
+}
+
+<h2 >Editar Municipios</h2>
+@if(ViewData["Error"]!=null){
+    <h4 class="text-danger"> @ViewData["Error"] </h4>
+}
+
+<div class="row">
+    <hr /><!--Este hr es para crear una linea debajo de nuestro h2, es una linea divisora-->
+    <div class="col-md-4">
+
+        <form method="post" asp-action="Edit"><!--El metodo post es para Enviar información de ese formulario-->
+            <div asp-validation-summary="ModelOnly" class="text-danger">
+                <!--Con ese "asp-validation-summary",permitimos que se conecte a un modelo 
+                Con el text-danger es para enviar los errores en los campos-->
+            </div>
+            <input type="hidden" asp-for="municipio.Id"/>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="municipio.Nombre" class="control-label"></label></b><!--El "asp-for" hace referencia al atributo que le pongamos
+                permitiendo así que el texto no editable (label) contenga como nombre, el atributo que le decimos, en este caso Nombre-->
+                <input class="form-control" asp-for="municipio.Nombre"/>
+                <span asp-validation-for="municipio.Nombre" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="submit" value="Editar" class="btn btn-success"/>
+                <a asp-page="./Index" class="btn btn-info">Regresar</a>
+            </div>
+        </form>
+
+    </div>
+</div>
+

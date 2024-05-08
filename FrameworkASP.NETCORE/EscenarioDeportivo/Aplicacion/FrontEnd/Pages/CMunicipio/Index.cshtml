@@ -1,0 +1,36 @@
+﻿@page
+@model FrontEnd.Pages.CMunicipio.IndexModel
+@{
+    ViewData["Title"]="Index para Municipios";
+    /*Hay que agregar las referencias con Persistencia y con el Dominio
+    haciendo uso del "dotnet add reference ..\Persistencia\" , e igualmente hacerlo
+    pero con el dominio */
+}
+
+<h1>Municipios</h1>
+    <p>
+        <a asp-page="Create" class="btn btn-success">Crear Municipio</a><!--El 'asp-page' permite redireccionarnos a la página Create
+                                                en CMunicipio !-->
+    </p>
+    <table class="table">
+        <thead><!--Encabezado!-->
+            <tr><!--Fila!-->
+                <th>Nombre</th><!--th porque estamos en una cabecera, es como el título de la columna mejor dicho!-->
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mun in Model.Municipios)//Municipios es el IEnumerable que tenemos
+            {
+                <tr>
+                    <td>@mun.Nombre</td>
+                    <td>
+                        <a asp-page="./Edit" class="btn btn-primary" asp-route-id=@mun.Id>Editar
+                        <!--Esto se hace para que cuando se haga click en editar, se lleve el Id del municipio
+                        El asp-route-id es para capturar el id del municipio--></a>
+                        <a asp-page="./Details" class="btn btn-info" asp-route-id=@mun.Id> Detalles </a>
+                        <a asp-page="./Delete" class="btn btn-danger" asp-route-id=@mun.Id> Eliminar </a>
+                    </td>
+                </tr>   
+            }
+        </tbody><!--Cuerpo de la tabla!-->
+    </table>

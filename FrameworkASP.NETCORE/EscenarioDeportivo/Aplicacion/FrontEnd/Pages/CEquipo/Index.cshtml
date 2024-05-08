@@ -1,0 +1,57 @@
+﻿@page
+@model FrontEnd.Pages.CEquipo.IndexModel
+@{
+    ViewData["Title"]="Equipos";
+}
+
+<style>
+    .orderby {
+  text-align-last: center;
+  padding: 9px;
+  border-radius: 1px;
+  border: 1px solid #ddd;
+  font-weight: 600;
+  color: #868585;
+}
+</style>
+
+
+<h2>Equipos</h2>
+<p>
+    <a asp-page="Create" class="btn btn-success">Adicionar Equipo</a>
+</p>
+<hr/>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Entrenador</th>
+            <th>Jugadores</th>
+            <th></th>
+        </tr>
+        <tbody>
+            @foreach (var equ in Model.lstEquipos){
+                <tr>
+                    <td>@equ.Nombre</td>
+                    @if(equ.Tecnico!=null){
+                        <td>@equ.Tecnico.Nombres </td>
+                    }else{
+                        <td>SIN TECNICO</td>
+                    }
+                    <td><select class="orderby">
+                        <option selected>--Jugadores--</option>
+                        @foreach (var depor in equ.Deportistas){
+                            <option>@depor.Nombres</option>   
+                        }
+                    </select></td>
+                    <td>
+                        <a asp-page="./Edit" class="btn btn-primary" asp-route-id="@equ.Id">Editar</a>
+                        <a asp-page="./Details" class="btn btn-info" asp-route-id="@equ.Id">Detalles</a>
+                        <a asp-page="./Delete" class="btn btn-danger" asp-route-id="@equ.Id">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </thead>
+</table>

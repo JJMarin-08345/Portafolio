@@ -1,0 +1,91 @@
+﻿@page
+@model FrontEnd.Pages.CTorneo.EditModel
+@{
+    ViewData["Title"]="Modificar Torneo";
+}
+<h2>Modificar Torneo</h2>
+<h3 class="text-danger">@ViewData["Error"]</h3>
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="Edit">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div>
+                <input asp-for="torneo.Id" hidden />
+            </div>
+
+            <div class="form-group">
+                <b><label asp-for="torneo.Nombre" class="control-label"></label></b>
+                <input asp-for="torneo.Nombre" class="form-control" />
+                <span asp-validation-for="torneo.Nombre" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="torneo.Categoria" class="control-label"></label></b>
+                <input asp-for="torneo.Categoria" class="form-control" />
+                <span asp-validation-for="torneo.Categoria" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="torneo.Deporte" class="control-label"></label></b>
+                <input asp-for="torneo.Deporte" class="form-control" />
+                <span asp-validation-for="torneo.Deporte" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="torneo.FechaInicio" class="control-label">Fecha Inicio</label></b>
+                <input asp-for="torneo.FechaInicio" class="form-control"/>
+                <span asp-validation-for="torneo.FechaInicio" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="torneo.FechaFin" class="control-label">Fecha Fin</label></b>
+                <input asp-for="torneo.FechaFin" class="form-control"/>
+                <span asp-validation-for="torneo.FechaFin" class="text-danger" ></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="torneo.CantidadEquipos" class="control-label"> Cantidad de Equipos</label></b>
+                <input asp-for="torneo.CantidadEquipos" class="form-control"/>
+                <span asp-validation-for="torneo.CantidadEquipos" class="text-danger" ></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="torneo.Etapa" class="control-label"></label></b>
+                <input asp-for="torneo.Etapa" class="form-control" />
+                <span asp-validation-for="torneo.Etapa" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="torneo.MunicipioId" class="control-label">Municipio en el que se realizará</label></b>
+                <select asp-for="torneo.MunicipioId" class="form-control">
+                    <option value="">--Seleccione el Municipio</option>
+                    @foreach (var mun in Model.municipios){
+                        <option value="@mun.Id">@mun.Nombre</option>
+                    }
+                </select>
+                <span asp-validation-for="torneo.MunicipioId" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="torneo.PatrocinadorId" class="control-label">Patrocinador del Torneo</label></b>
+                <select asp-for="torneo.PatrocinadorId" class="form-control">
+                    <option value="">--Seleccionar un Patrocinador</option>
+                    @foreach (var pat in Model.patrocinadores){
+                        <option value="@pat.Id">@pat.Documento @pat.Nombres</option>
+                    }
+                </select>
+                <span asp-validation-for="torneo.PatrocinadorId" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary" value="Editar"/>
+                <a asp-page="./Index" class="btn btn-info">Regresar</a>
+            </div>
+
+        </form>
+    </div>
+</div>
+

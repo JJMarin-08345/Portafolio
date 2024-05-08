@@ -1,0 +1,40 @@
+﻿@page
+@model FrontEnd.Pages.CUnidadDeportiva.DetailsModel
+@{
+    ViewData["Title"]="Detalles Unidad Deportiva";
+}
+<h2>Detalles Unidad Deportiva</h2>
+<h3 class="text-danger">@ViewData["Error"] </h3>
+<hr/>
+
+<div class="row">
+        <div class="col-md-4">
+            <form method="post" asp-action="Details">
+
+                <div class="form-group">
+                    <label asp-for="unidadDeportiva.Nombre" class="control-label"> </label>
+                    <input asp-for="unidadDeportiva.Nombre" class="form-control" readonly/>                    
+                </div>
+                <br>
+                <div class="form-group">
+                    <label asp-for="unidadDeportiva.Direccion" class="control-label"> </label>
+                    <input asp-for="unidadDeportiva.Direccion" class="form-control" readonly />                    
+                </div>
+                <br>
+                <div class="form-group">
+                    <label asp-for="unidadDeportiva.Ciudad" class="control-label"> </label>
+                    <input asp-for="unidadDeportiva.Ciudad" class="form-control" readonly />                    
+                </div>
+                <br>
+                <div class="form-group">
+                    <label asp-for="unidadDeportiva.torneo.Nombre" class="control-label"> Se jugará el Torneo</label>
+                    <input asp-for="unidadDeportiva.torneo.Nombre" class="form-control" readonly />                    
+                </div>
+                <br>
+                <div class="form-group">
+                    <a asp-page="./Index" class="btn btn-info">Regresar</a>
+                </div>
+
+            </form>
+        </div>
+    </div>

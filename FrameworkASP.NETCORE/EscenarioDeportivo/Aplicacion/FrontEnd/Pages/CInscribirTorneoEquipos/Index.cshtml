@@ -1,0 +1,35 @@
+﻿@page
+@model FrontEnd.Pages.CTorneoEquipos.IndexModel
+@{
+    ViewData["Title"]="Inscripción De Torneos Y Equipos";
+}
+<p>
+    <a asp-page="./Create" class="btn btn-success">Inscribir Equipo a un Torneo</a>
+</p>
+<h2>Inscripcion Torneos y Equipos</h2>
+<hr/>
+<table class="table">
+    <tr>
+        <th>Torneo</th>
+        <th>Equipos Participantes</th>
+        <th></th>
+    </tr>
+    <tbody>
+        @foreach (var tor in Model.lstTorneos){
+            <tr>
+                <td>@tor.Nombre</td>
+                <td>
+                    <select class="form-control">
+                        <option>--Equipos Participantes--</option>
+                        @foreach (var equ in Model.equipo.TorneosEquipo){
+                            <option>@equ.Equipo.Nombre</option>
+                        }
+                    </select>
+                </td>
+                <!--- <td>
+                    <a asp-page="/Details" class="btn btn-info">Detalles</a>
+                </td>-->
+            </tr>
+        }
+    </tbody>
+</table>

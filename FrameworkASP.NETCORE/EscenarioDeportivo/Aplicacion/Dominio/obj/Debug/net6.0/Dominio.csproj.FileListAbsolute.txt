@@ -1,0 +1,12 @@
+C:\Users\usuario\Pictures\MISIÓN TIC 2022\Tareas MinTic\Ciclo 2 - MinTic\Proyecto Ciclo 3\Avance\EscenarioDeportivo\Aplicacion\Dominio\obj\Debug\net6.0\Dominio.csproj.AssemblyReference.cache
+C:\Users\usuario\Pictures\MISIÓN TIC 2022\Tareas MinTic\Ciclo 2 - MinTic\Proyecto Ciclo 3\Avance\EscenarioDeportivo\Aplicacion\Dominio\obj\Debug\net6.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\Pictures\MISIÓN TIC 2022\Tareas MinTic\Ciclo 2 - MinTic\Proyecto Ciclo 3\Avance\EscenarioDeportivo\Aplicacion\Dominio\obj\Debug\net6.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\usuario\Pictures\MISIÓN TIC 2022\Tareas MinTic\Ciclo 2 - MinTic\Proyecto Ciclo 3\Avance\EscenarioDeportivo\Aplicacion\Dominio\obj\Debug\net6.0\Dominio.AssemblyInfo.cs
+C:\Users\usuario\Pictures\MISIÓN TIC 2022\Tareas MinTic\Ciclo 2 - MinTic\Proyecto Ciclo 3\Avance\EscenarioDeportivo\Aplicacion\Dominio\obj\Debug\net6.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Pictures\MISIÓN TIC 2022\Tareas MinTic\Ciclo 2 - MinTic\Proyecto Ciclo 3\Avance\EscenarioDeportivo\Aplicacion\Dominio\bin\Debug\net6.0\Dominio.deps.json
+C:\Users\usuario\Pictures\MISIÓN TIC 2022\Tareas MinTic\Ciclo 2 - MinTic\Proyecto Ciclo 3\Avance\EscenarioDeportivo\Aplicacion\Dominio\bin\Debug\net6.0\Dominio.dll
+C:\Users\usuario\Pictures\MISIÓN TIC 2022\Tareas MinTic\Ciclo 2 - MinTic\Proyecto Ciclo 3\Avance\EscenarioDeportivo\Aplicacion\Dominio\bin\Debug\net6.0\Dominio.pdb
+C:\Users\usuario\Pictures\MISIÓN TIC 2022\Tareas MinTic\Ciclo 2 - MinTic\Proyecto Ciclo 3\Avance\EscenarioDeportivo\Aplicacion\Dominio\obj\Debug\net6.0\Dominio.dll
+C:\Users\usuario\Pictures\MISIÓN TIC 2022\Tareas MinTic\Ciclo 2 - MinTic\Proyecto Ciclo 3\Avance\EscenarioDeportivo\Aplicacion\Dominio\obj\Debug\net6.0\refint\Dominio.dll
+C:\Users\usuario\Pictures\MISIÓN TIC 2022\Tareas MinTic\Ciclo 2 - MinTic\Proyecto Ciclo 3\Avance\EscenarioDeportivo\Aplicacion\Dominio\obj\Debug\net6.0\Dominio.pdb
+C:\Users\usuario\Pictures\MISIÓN TIC 2022\Tareas MinTic\Ciclo 2 - MinTic\Proyecto Ciclo 3\Avance\EscenarioDeportivo\Aplicacion\Dominio\obj\Debug\net6.0\ref\Dominio.dll

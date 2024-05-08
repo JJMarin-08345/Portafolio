@@ -1,0 +1,48 @@
+﻿@page
+@model FrontEnd.Pages.CEquipo.CreateModel
+@{
+    ViewData["Title"]="Adicionar Equipo";
+}
+<h2>Adicionar Equipo</h2>
+<h3 class="text-danger">@ViewData["Error"]</h3>
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger" ></div>
+            <div class="form-group">
+                <label asp-for="equipo.Nombre" class="control-label"></label>
+                <input asp-for="equipo.Nombre" class="form-control" placeholder="Deportivo Cali" />
+                <span asp-validation-for="equipo.Nombre" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <label asp-for="equipo.Deporte" class="control-label"></label>
+                <input asp-for="equipo.Deporte" class="form-control" placeholder="Futbol" />
+                <span asp-validation-for="equipo.Deporte" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <label asp-for="equipo.Jugadores" class="control-label"></label>
+                <input asp-for="equipo.Jugadores" class="form-control" />
+                <span asp-validation-for="equipo.Jugadores" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <label asp-for="equipo.PatrocinadorId" class="control-label">Patrocinador</label>
+                <select asp-for="equipo.PatrocinadorId" class="form-control">
+                    <option value="">--Seleccionar Patrocinador--</option>
+                    @foreach (var pat in Model.lstPatrocinadores){
+                        <option value="@pat.Id">@pat.Nombres</option>
+                    }
+                </select>
+                <span asp-validation-for="equipo.PatrocinadorId" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="submit" class="btn btn-success" value="Adicionar" />
+                <a asp-page="./Index" class="btn btn-info">Regresar</a>
+            </div>
+        </form>
+    </div>
+</div>

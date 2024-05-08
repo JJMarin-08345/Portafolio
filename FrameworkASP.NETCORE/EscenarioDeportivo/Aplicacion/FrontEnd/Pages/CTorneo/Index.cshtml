@@ -1,0 +1,35 @@
+﻿@page
+@model FrontEnd.Pages.CTorneo.IndexModel
+@{
+    ViewData["Title"]="Torneos";
+}
+
+<h2>Torneos</h2>
+
+<p>
+    <a asp-page="./Create" class="btn btn-success">Nuevo Torneo</a>
+</p>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Fecha Inicio</th>
+                <th>Fecha Fin</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var tor in Model.Torneos){
+                <tr>
+                    <td>@tor.Nombre</td>
+                    <td>@tor.FechaInicio</td>
+                    <td>@tor.FechaFin</td>
+                    <td>
+                        <a asp-page="./Edit" class="btn btn-primary" asp-route-id="@tor.Id">Editar</a>
+                        <a asp-page="./Details" class="btn btn-info" asp-route-id="@tor.Id" >Detalles</a>
+                        <a asp-page="./Delete" class="btn btn-danger" asp-route-id="@tor.Id" >Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>

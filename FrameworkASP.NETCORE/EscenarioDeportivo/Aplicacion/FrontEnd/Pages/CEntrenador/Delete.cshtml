@@ -1,0 +1,61 @@
+﻿@page
+@model FrontEnd.Pages.CEntrenador.DeleteModel
+@{
+    ViewData["Title"]="Eliminar Entrenador";
+}
+
+<h2>Eliminar Entrenador</h2>
+@if(ViewData["Error"]!=null){
+    <h3 class="text-danger">@ViewData["Error"] </h3>
+}else{
+    <h3 class="text-danger">¿Esta seguro de eliminar este registro?</h3>
+}
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="Delete">
+            <div>
+                <input asp-for="entrenador.Id" hidden/>
+            </div>
+            <div class="form-group">
+                <b><label asp-for="entrenador.Documento" class="control-label"></label></b>
+                <input asp-for="entrenador.Documento" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="entrenador.Nombres" class="control-label"></label></b>
+                <input asp-for="entrenador.Nombres" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="entrenador.Apellidos" class="control-label"></label></b>
+                <input asp-for="entrenador.Apellidos" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="entrenador.Deporte" class="control-label"></label></b>
+                <input asp-for="entrenador.Deporte" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="entrenador.Celular" class="control-label"></label></b>
+                <input asp-for="entrenador.Celular" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="entrenador.Correo" class="control-label"></label></b>
+                <input asp-for="entrenador.Correo" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="entrenador.equipo.Nombre" class="control-label">Equipo que dirige</label></b>
+                <input asp-for="entrenador.equipo.Nombre" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="submit" class="btn btn-danger" value="Eliminar" />
+                <a asp-page="./Index" class="btn btn-info">Regresar</a>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,86 @@
+﻿@page
+@model FrontEnd.Pages.CArbitro.CreateModel
+@{
+    ViewData["Title"]="Agregar Arbitro";
+}
+
+<h2> Agregar Arbitro </h2>
+
+<h3 class="text-danger"> @ViewData["Error"] </h3>
+
+
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="Create" class="form-group">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"> </div>
+
+            <div class="form-group">
+                <b><label asp-for="arbitro.Documento" class="control-label"></label></b>
+                <input asp-for="arbitro.Documento" class="form-control"/>
+                <span asp-validation-for="arbitro.Documento" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="arbitro.Nombres" class="control-label"></label></b>
+                <input asp-for="arbitro.Nombres" class="form-control"/>
+                <span asp-validation-for="arbitro.Nombres" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="arbitro.Apellidos" class="control-label"></label></b>
+                <input asp-for="arbitro.Apellidos" class="form-control" />
+                <span asp-validation-for="arbitro.Apellidos" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="arbitro.Deporte" class="control-label"></label></b>
+                <input asp-for="arbitro.Deporte" class="form-control" />
+                <span asp-validation-for="arbitro.Deporte" class="text-danger"></span>
+            </div>
+            <br>
+            <div class=form-group>
+                <b><label asp-for="arbitro.Rh" class="control-label"></label></b>
+                <input asp-for="arbitro.Rh" class="form-control" />
+                <span asp-validation-for="arbitro.Rh" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="arbitro.Celular" class="control-label"></label></b>
+                <input asp-for="arbitro.Celular" class="form-control" placeholder="3112345678"/>
+                <span asp-validation-for="arbitro.Celular" class="text-danger"></span>
+            </div>
+            <br>
+            
+            <div>
+                <b><label asp-for="arbitro.ColegioInstruccionId" class="control-label">Colegio de Instruccion</label></b>
+                <select asp-for="arbitro.ColegioInstruccionId" class="form-control">
+                    <option value="">--Seleccionar Colegio--</option>
+                    @foreach(var col in Model.Colegios){
+                        <option value="@col.Id">@col.RazonSocial</option>
+                    }
+                </select>
+                <span asp-validation-for="arbitro.ColegioInstruccionId" class="text-danger"></span>
+            </div>
+            <br>
+
+            <div class="form-group">
+                <b><label asp-for="arbitro.TorneoId" class="control-label">Torneo en el que participa</label></b>
+                <select asp-for="arbitro.TorneoId" class="form-control">
+                    <option value="">--Seleccionar Torneo--</option>
+                    @foreach(var tor in Model.Torneos){
+                        <option value="@tor.Id">@tor.Nombre</option>
+                    }
+                </select>
+                <span asp-validation-for="arbitro.TorneoId" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="submit" value="Crear" class="btn btn-success" />
+                <a asp-page="./Index" class="btn btn-info">Regresar</a>
+            </div>
+
+        </form>
+    </div>
+</div>

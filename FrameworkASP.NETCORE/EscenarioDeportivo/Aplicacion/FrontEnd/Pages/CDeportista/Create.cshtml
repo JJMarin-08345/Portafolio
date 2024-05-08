@@ -1,0 +1,96 @@
+﻿@page
+@model FrontEnd.Pages.CDeportista.CreateModel
+@{
+    ViewData["Title"]="Nuevo Deportista";
+}
+<h2>Adicionar Deportista</h2>
+<h3 class="text-danger">@ViewData["Error"]</h3>
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="Create">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <b><label asp-for="deportista.Documento" class="control-label"></label></b>
+                <input asp-for="deportista.Documento" class="form-control" placeholder="1234567"/>
+                <span asp-validation-for="deportista.Documento" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="deportista.Nombres" class="control-label"></label></b>
+                <input asp-for="deportista.Nombres" class="form-control" placeholder="Juan Guillermo"/>
+                <span asp-validation-for="deportista.Nombres" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="deportista.Apellidos" class="control-label"></label></b>
+                <input asp-for="deportista.Apellidos" class="form-control" placeholder="Cuadrado"/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="deportista.Genero" class="control-label">Género</label></b> 
+                <select asp-for="deportista.Genero" class="form-control">
+                    <option value="N/A">--Genero--</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                </select>
+                <span asp-validation-for="deportista.Genero" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="deportista.Deporte" class="control-label"></label></b>
+                <input asp-for="deportista.Deporte" class="form-control" placeholder="Fútbol"/>
+                <span asp-validation-for="deportista.Deporte" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="deportista.FechaNacimiento" class="control-label">Fecha de Nacimiento</label></b>
+                <input asp-for="deportista.FechaNacimiento" class="form-control" />
+                <span asp-validation-for="deportista.FechaNacimiento" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="deportista.Rh" class="control-label"></label></b>
+                <input asp-for="deportista.Rh" class="form-control" placeholder="O+"/>
+                <span asp-validation-for="deportista.Rh" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="deportista.Eps" class="control-label"></label></b>
+                <input asp-for="deportista.Eps" class="form-control" placeholder="Coomeva"/>
+                <span asp-validation-for="deportista.Eps" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="deportista.Celular" class="control-label"></label></b>
+                <input asp-for="deportista.Celular" class="form-control" placeholder="312 123 456" />
+                <span asp-validation-for="deportista.Celular" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="deportista.Correo" class="control-label"></label></b>
+                <input asp-for="deportista.Correo" class="form-control" type="email" placeholder="JGuiCuadrado@gmail.com" />
+                <span asp-validation-for="deportista.Correo" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="deportista.EquipoId" class="control-label">Equipo</label></b>
+                <select asp-for="deportista.EquipoId" class="form-control">
+                    <option value="">--Seleccionar Equipo--</option>
+                    @foreach (var equ in Model.lstEquipos){
+                        <option value="@equ.Id">@equ.Nombre</option>
+                    }
+                </select>
+                <span asp-validation-for="deportista.EquipoId" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="submit" class="btn btn-success" value="Adicionar"/>
+                <a asp-page="./Index" class="btn btn-info">Regresar</a>
+            </div>
+
+        </form>
+    </div>
+</div>

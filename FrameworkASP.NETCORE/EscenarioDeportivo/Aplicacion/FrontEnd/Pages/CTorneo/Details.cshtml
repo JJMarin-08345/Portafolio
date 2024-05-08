@@ -1,0 +1,84 @@
+﻿@page
+@model FrontEnd.Pages.CTorneo.DetailsModel
+@{
+    ViewData["Title"]="Detalles del Torneo";
+}
+<h2>Detalles del Torneo</h2>
+<h3 class="text-danger">@ViewData["Error"] </h3>
+<hr/>
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="Details">
+            
+            <div class="form-group">
+                <b><label asp-for="torneo.Nombre" class="control-label"></label></b>
+                <input asp-for="torneo.Nombre" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="torneo.Categoria" class="control-label"></label></b>
+                <input asp-for="torneo.Categoria" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="torneo.Deporte" class="control-label"></label></b>
+                <input asp-for="torneo.Deporte" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="torneo.FechaInicio" class="control-label">Fecha Inicio</label></b>
+                <input asp-for="torneo.FechaInicio" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="torneo.FechaFin" class="control-label">Fecha Fin</label></b>
+                <input asp-for="torneo.FechaFin" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="torneo.CantidadEquipos" class="control-label"> Cantidad de Equipos</label></b>
+                <input asp-for="torneo.CantidadEquipos" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="torneo.Etapa" class="control-label"></label></b>
+                <input asp-for="torneo.Etapa" class="form-control" readonly />
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="torneo.municipio.Nombre" class="control-label">Municipio en el que se realizará</label></b>
+                <input asp-for="torneo.municipio.Nombre" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="torneo.patrocinador.Nombres" class="control-label">Patrocinador del Torneo</label></b>
+                <input asp-for="torneo.patrocinador.Nombres" class="form-control" readonly />
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="torneo.UnidadesDeportivas" class="control-label">Unidades Deportivas</label></b>
+                <select class="form-control">
+                    <option>--Unidades Deportivas--</option>
+                    @foreach (var uni in Model.torneo.UnidadesDeportivas){
+                        <option>@uni.Nombre</option>
+                    }
+                </select>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="torneo.Arbitros" class="control-label"></label></b>
+                <select class="form-control">
+                    <option>--Árbitros Participantes--</option>
+                    @foreach (var arbi in Model.torneo.Arbitros){
+                        <option>@arbi.Nombres @arbi.Apellidos</option>
+                    }
+                </select>
+            </div>
+            <br>
+            <div class="form-group">
+                <a asp-page="./Index" class="btn btn-info">Regresar</a>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,252 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FrontEnd
+build_property.RootNamespace = FrontEnd
+build_property.ProjectDir = C:\Users\usuario\Pictures\MISIÓN TIC 2022\Tareas MinTic\Ciclo 2 - MinTic\Proyecto Ciclo 3\Avance\EscenarioDeportivo\Aplicacion\FrontEnd\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\usuario\Pictures\MISIÓN TIC 2022\Tareas MinTic\Ciclo 2 - MinTic\Proyecto Ciclo 3\Avance\EscenarioDeportivo\Aplicacion\FrontEnd
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CArbitro/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0FyYml0cm9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CArbitro/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0FyYml0cm9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CArbitro/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0FyYml0cm9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CArbitro/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0FyYml0cm9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CArbitro/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0FyYml0cm9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CColegio/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0NvbGVnaW9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CColegio/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0NvbGVnaW9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CColegio/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0NvbGVnaW9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CColegio/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0NvbGVnaW9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CColegio/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0NvbGVnaW9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CDeportista/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0RlcG9ydGlzdGFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CDeportista/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0RlcG9ydGlzdGFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CDeportista/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0RlcG9ydGlzdGFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CDeportista/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0RlcG9ydGlzdGFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CDeportista/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0RlcG9ydGlzdGFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CEntrenador/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VudHJlbmFkb3JcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CEntrenador/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VudHJlbmFkb3JcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CEntrenador/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VudHJlbmFkb3JcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CEntrenador/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VudHJlbmFkb3JcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CEntrenador/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VudHJlbmFkb3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CEquipo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VxdWlwb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CEquipo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VxdWlwb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CEquipo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VxdWlwb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CEquipo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VxdWlwb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CEquipo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VxdWlwb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CEscenario/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VzY2VuYXJpb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CEscenario/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VzY2VuYXJpb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CEscenario/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VzY2VuYXJpb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CEscenario/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VzY2VuYXJpb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CEscenario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VzY2VuYXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CInscribirTorneoEquipos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0luc2NyaWJpclRvcm5lb0VxdWlwb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CInscribirTorneoEquipos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0luc2NyaWJpclRvcm5lb0VxdWlwb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CMunicipio/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ011bmljaXBpb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CMunicipio/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ011bmljaXBpb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CMunicipio/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ011bmljaXBpb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CMunicipio/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ011bmljaXBpb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CMunicipio/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ011bmljaXBpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CPatrocinador/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1BhdHJvY2luYWRvclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CPatrocinador/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1BhdHJvY2luYWRvclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CPatrocinador/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1BhdHJvY2luYWRvclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CPatrocinador/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1BhdHJvY2luYWRvclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CPatrocinador/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1BhdHJvY2luYWRvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CTorneo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1Rvcm5lb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CTorneo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1Rvcm5lb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CTorneo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1Rvcm5lb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CTorneo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1Rvcm5lb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CTorneo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1Rvcm5lb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CUnidadDeportiva/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1VuaWRhZERlcG9ydGl2YVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CUnidadDeportiva/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1VuaWRhZERlcG9ydGl2YVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CUnidadDeportiva/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1VuaWRhZERlcG9ydGl2YVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CUnidadDeportiva/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1VuaWRhZERlcG9ydGl2YVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/CUnidadDeportiva/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1VuaWRhZERlcG9ydGl2YVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Pictures/MISIÓN TIC 2022/Tareas MinTic/Ciclo 2 - MinTic/Proyecto Ciclo 3/Avance/EscenarioDeportivo/Aplicacion/FrontEnd/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-k664fqafc8

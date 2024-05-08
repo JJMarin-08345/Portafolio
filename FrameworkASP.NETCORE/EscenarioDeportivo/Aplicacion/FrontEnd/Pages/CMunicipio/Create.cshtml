@@ -1,0 +1,34 @@
+﻿@page
+@model FrontEnd.Pages.CMunicipio.CreateModel
+@{
+    ViewData["Title"]="Crear Municipio";
+}
+<h2 >Crear Municipio</h2>
+<h3 class="text-danger">@ViewData["Error"]</h3>
+
+<hr /><!--Este hr es para crear una linea debajo de nuestro h2, es una linea divisora-->
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post" class="form-group"><!--El metodo post es para Enviar información de ese formulario-->
+
+            <div asp-validation-summary="ModelOnly" class="text-danger">
+                <!--Con ese "asp-validation-summary",permitimos que se conecte a un modelo 
+                Con el text-danger es para enviar los errores en los campos-->
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="municipio.Nombre" class="control-label"></label></b><!--El "asp-for" hace referencia al atributo que le pongamos
+                permitiendo así que el texto no editable (label) contenga el atributo que le decimos, en este caso Nombre-->
+                <input asp-for="municipio.Nombre" class="form-control"/>
+                <span asp-validation-for="municipio.Nombre" class="text-danger"></span>
+                <!--El "asp-validation-for", permite la validacion para el campo que le especifiquemos-->
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="submit" value="Crear" class="btn btn-success" /><!--Boton de crear, el value es el nombre del botón-->
+                <a asp-page="Index" class="btn btn-danger">Cancelar</a><!--Ese asp-page nos regresa a la pagina que le indiquemos-->
+            </div>
+
+        </form>
+    </div>
+</div>

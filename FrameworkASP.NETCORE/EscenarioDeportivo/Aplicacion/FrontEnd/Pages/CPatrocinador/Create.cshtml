@@ -1,0 +1,68 @@
+﻿@page
+@model FrontEnd.Pages.CPatrocinador.CreateModel
+@{
+    ViewData["Title"]="Adicionar Patrocinador";
+}
+
+<h2>Adicionar Patrocinador</h2>
+<h3 class="text-danger">@ViewData["Error"] </h3>
+<hr/>
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <b><label asp-for="patrocinador.Documento" class="control-label"></label></b>
+                <input asp-for="patrocinador.Documento" class="form-control" placeholder="12322463465" />
+                <span asp-validaton-for="patrocinador.Documento" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="patrocinador.Nombres" class="control-label"></label></b>
+                <input asp-for="patrocinador.Nombres" class="form-control" placeholder="Gatorade" />
+                <span asp-validation-for="patrocinador.Nombres" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="patrocinador.Deporte" class="control-label"></label></b>
+                <input asp-for="patrocinador.Deporte" class="form-control" placeholder="Futbol" />
+                <span asp-validation-for="patrocinador.Deporte" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="patrocinador.Direccion" class="control-label"></label></b>
+                <input asp-for="patrocinador.Direccion" class="form-control" placeholder="Cl 7 Oe. #31-08" />
+                <span asp-validation-for="patrocinador.Direccion" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="patrocinador.Telefono" class="control-label"></label></b>
+                <input asp-for="patrocinador.Telefono" class="form-control" placeholder="312 123 4567" />
+                <span asp-validation-for="patrocinador.Telefono" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="patrocinador.Ciudad" class="control-label"></label></b>
+                <input asp-for="patrocinador.Ciudad" class="form-control" placeholder="Bogotá" />
+                <span asp-validation-for="patrocinador.Ciudad" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="patrocinador.Personeria" class="control-label"></label></b>
+                <select asp-for="patrocinador.Personeria" class="form-control">
+                    <option value="">--Seleccione una opción--</option>
+                    <option value="@true">Pertenece a personeria</option>
+                    <option value="@false">No pertenece a personeria</option>
+                </select>
+                <span asp-validation-for="patrocinador.Personeria" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="submit" class="btn btn-success" value="Adicionar" />
+                <a asp-page="./Index" class="btn btn-info">Regresar</a>
+            </div>
+
+        </form>
+    </div>
+</div>

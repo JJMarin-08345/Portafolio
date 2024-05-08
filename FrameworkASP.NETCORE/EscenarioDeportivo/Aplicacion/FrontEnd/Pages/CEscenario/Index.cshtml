@@ -1,0 +1,33 @@
+﻿@page
+@model FrontEnd.Pages.CEscenario.IndexModel
+@{
+    ViewData["Title"]="Escenarios";
+}
+
+<h2>Escenarios</h2>
+<p>
+    <a asp-page="./Create" class="btn btn-success">Nuevo Escenario</a> 
+</p>
+<hr/>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Espectadores</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var esc in Model.lstEscenarios){
+            <tr>
+                <td>@esc.Nombre</td>
+                <td>@esc.Espectadores</td>
+                <td>
+                    <a asp-page="./Edit" class="btn btn-primary" asp-route-id="@esc.Id">Editar</a>
+                    <a asp-page="./Details" class="btn btn-info" asp-route-id="@esc.Id">Detalles</a>
+                    <a asp-page="./Delete" class="btn btn-danger" asp-route-id="@esc.Id">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

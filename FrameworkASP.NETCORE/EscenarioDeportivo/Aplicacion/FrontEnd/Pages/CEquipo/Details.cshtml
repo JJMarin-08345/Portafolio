@@ -1,0 +1,56 @@
+﻿@page
+@model FrontEnd.Pages.CEquipo.DetailsModel
+@{
+    ViewData["Title"]="Detalles de Equipo";
+}
+<h2>Detalles Equipo</h2>
+<h3 class="text-danger">@ViewData["Error"] </h3>
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="Details">
+            <div class="form-group">
+                <label asp-for="equipo.Nombre" class="control-label"></label>
+                <input asp-for="equipo.Nombre" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <label asp-for="equipo.Deporte" class="control-label"></label>
+                <input asp-for="equipo.Deporte" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <label asp-for="equipo.Tecnico.Nombres" class="control-label">Tecnico</label>
+                <input asp-for="equipo.Tecnico.Nombres" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <label asp-for="equipo.Jugadores" class="control-label"></label>
+                <input asp-for="equipo.Jugadores" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <label asp-for="equipo.patrocinador.Nombres" class="control-label">Patrocinador</label>
+                <input asp-for="equipo.patrocinador.Nombres" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="equipo.Deportistas" class="control-label"></label></b>
+                <select class="form-control">
+                    <option>--Deportistas en @Model.equipo.Nombre</option>
+                    @if(Model.equipo.Deportistas.Count>0){
+                        foreach(var dep in Model.equipo.Deportistas){
+                            <option>@dep.Nombres @dep.Apellidos</option>
+                        }
+                    }else{
+                        <option>No hay jugadores en este equipo</option>
+                    }
+                </select>
+            </div>
+            <br>
+            <div class="form-group">
+                <a asp-page="./Index" class="btn btn-info">Regresar</a>
+            </div>
+        </form>
+    </div>
+</div>

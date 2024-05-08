@@ -1,0 +1,46 @@
+﻿@page
+@model FrontEnd.Pages.CEscenario.DeleteModel
+@{
+    ViewData["Title"]="Eliminar Escenario";
+}
+
+<h2>Eliminar</h2>
+@if(ViewData["Error"]!=null){
+    <h3 class="text-danger">@ViewData["Error"] </h3>
+}else{
+    <h3 class="text-danger">¿Está seguro de eliminar este Escenario?</h3>
+}
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="Delete">
+            <div>
+                <input asp-for="escenario.Id" hidden/>
+            </div>
+            <div class="form-group">
+                <b><label asp-for="escenario.Nombre" class="control-label"></label></b>
+                <input asp-for="escenario.Nombre" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="escenario.Espectadores" class="control-label"></label></b>
+                <input asp-for="escenario.Espectadores" class="form-control" readonly />
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="escenario.Tipo" class="control-label"></label></b>
+                <input asp-for="escenario.Tipo" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="escenario.UniDepor.Nombre" class="control-label"></label></b>
+                <input asp-for="escenario.UniDepor.Nombre" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="submit" class="btn btn-danger" value="Eliminar"/>
+                <a asp-page="./Index" class="btn btn-info">Regresar</a>
+            </div>
+        </form>
+    </div>
+</div>

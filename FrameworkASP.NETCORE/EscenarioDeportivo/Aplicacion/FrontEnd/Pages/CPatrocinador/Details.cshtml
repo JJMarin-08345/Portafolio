@@ -1,0 +1,83 @@
+﻿@page
+@model FrontEnd.Pages.CPatrocinador.DetailsModel
+@{
+    ViewData["Title"]="Detalles Patrocinador";
+}
+<h2>Detalles de Patrocinador</h2>
+<h3>@ViewData["Error"] </h3>
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="Details">
+            <div class="form-group">
+                <b><label asp-for="patrocinador.Documento" class="control-label"></label></b>
+                <input asp-for="patrocinador.Documento" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="patrocinador.Nombres" class="control-label"></label></b>
+                <input asp-for="patrocinador.Nombres" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="patrocinador.Deporte" class="control-label"></label></b>
+                <input asp-for="patrocinador.Deporte" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="patrocinador.Direccion" class="control-label"></label></b>
+                <input asp-for="patrocinador.Direccion" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="patrocinador.Telefono" class="control-label"></label></b>
+                <input asp-for="patrocinador.Telefono" class="form-control" readonly/>
+            </div><br>
+            <div class="form-group">
+                <b><label asp-for="patrocinador.Ciudad" class="control-label"></label></b>
+                <input asp-for="patrocinador.Ciudad" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="patrocinador.Personeria" class="control-label"></label></b>
+                @if(Model.patrocinador.Personeria==true){
+                    <input value="Pertenece a personeria" class="form-control" readonly/>
+                }else{
+                    <input value="No pertenece a personeria" class="form-control" readonly/>
+                }
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="patrocinador.Equipos" class="control-label"></label></b>
+                <select class="form-control">
+                    <option>--Equipos Patrocinados--</option>
+                    @if(Model.patrocinador.Equipos.Count>0){
+                        foreach (var equ in Model.patrocinador.Equipos){
+                            <option>@equ.Nombre</option>
+                        }
+                    }else{
+                        <option>No hay equipos patrocinados</option>
+                    }
+                </select>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="patrocinador.Torneos" class="control-label"></label></b>
+                <select class="form-control">
+                    <option>--Torneos Patrocinados--</option>
+                     @if(Model.patrocinador.Torneos.Count>0){
+                        foreach(var tor in Model.patrocinador.Torneos){
+                            <option>@tor.Nombre</option>
+                        }
+                     }else{
+                        <option>No hay torneos patrocinados</option>
+                     }
+                </select>
+            </div>
+            <br>
+            <div class="form-group">
+                <a asp-page="./Index" class="btn btn-info">Regresar</a>
+            </div>
+        </form>
+    </div>
+</div>

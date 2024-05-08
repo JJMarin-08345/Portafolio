@@ -1,0 +1,64 @@
+﻿@page
+@model FrontEnd.Page.CColegio.CreateModel
+@{
+    ViewData["Title"]="Adicionar Colegio";
+}
+
+<h2> <b>Adicionar Colegio Instrucción</b> </h2>
+
+<h3 class="text-danger">@ViewData["Error"]</h3>
+
+<hr/>
+
+<div class="row">
+    <div class="col-md-4">
+
+        <form method="post" asp-action="Create" class="form-group">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <b><label asp-for="colegio.Nit" class="control-label"></label></b>
+                <input asp-for="colegio.Nit" class="form-control" />
+                <span asp-validation-for="colegio.Nit" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="colegio.RazonSocial" class="control-label"></label></b>
+                <input asp-for="colegio.RazonSocial" class="form-control"/>
+                <span asp-validation-for="colegio.RazonSocial" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="colegio.Direccion" class="control-label"></label></b>
+                <input asp-for="colegio.Direccion" class="form-control" />
+                <span asp-validation-for="colegio.Direccion" class="text-danger"> </span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="colegio.Telefono" class="control-label"></label></b>
+                <input asp-for="colegio.Telefono" class="form-control" />
+                <span asp-validation-for="colegio.Telefono" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="colegio.Deporte" class="control-label"></label></b>
+                <input asp-for="colegio.Deporte" class="form-control" />
+                <span asp-validation-for="colegio.Deporte" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="colegio.Licencia" class="control-label"></label></b>
+                <input asp-for="colegio.Licencia" class="form-control" />
+                <span asp-validation-for="colegio.Licencia" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="submit" class="btn btn-success" value="Crear"/>
+                <a asp-page="./Index" class="btn btn-info">Regresar</a>
+            </div>
+            
+
+        </form>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+﻿@page
+@model FrontEnd.Pages.CInscribirTorneoEquipos.CreateModel
+@{
+    ViewData["Title"]="Inscribir Equipo a un Torneo";
+}
+<h2>Inscripción</h2>
+<h3 class="text-danger">@ViewData["Error"] </h3>
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="Create">
+            <div class="form-group">
+                <b><label asp-for="torneoEquipo.TorneoId">Torneo</label></b>
+                <select asp-for="torneoEquipo.TorneoId" class="form-control" required>
+                    <option value="">--Seleccionar Torneo--</option>
+                    @foreach (var tor in Model.lstTorneos){
+                        <option value="@tor.Id">@tor.Nombre</option>
+                    }
+                </select>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="torneoEquipo.EquipoId">Equipo</label></b>
+                <select asp-for="torneoEquipo.EquipoId" class="form-control" required>
+                    <option value="">--Seleccionar Equipo--</option>
+                    @foreach (var equ in Model.lstEquipos){
+                        <option value="@equ.Id">@equ.Nombre</option>
+                    }
+                </select>
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="submit" class="btn btn-success" value="Inscribir"/>
+                <a asp-page="./Index" class="btn btn-info">Regresar</a>
+            </div>
+        </form>
+    </div> 
+</div>

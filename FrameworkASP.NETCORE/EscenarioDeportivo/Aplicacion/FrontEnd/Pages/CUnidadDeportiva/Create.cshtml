@@ -1,0 +1,51 @@
+﻿@page
+@model FrontEnd.Pages.CUnidadDeportiva.CreateModel
+@{  
+    ViewData["Title"]="Nueva Unidad Deportiva";
+}
+<h2>Nueva Unidad Deportiva</h2>
+<h3 class="text-danger">@ViewData["Error"]</h3>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <b><label asp-for="unidadDeportiva.Nombre" class="control-label"> </label></b>
+                <input asp-for="unidadDeportiva.Nombre" class="form-control" />
+                <span asp-validation-for="unidadDeportiva.Nombre" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="unidadDeportiva.Direccion" class="control-label"> </label></b>
+                <input asp-for="unidadDeportiva.Direccion" class="form-control" />
+                <span asp-validation-for="unidadDeportiva.Direccion" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="unidadDeportiva.Ciudad" class="control-label"> </label></b>
+                <input asp-for="unidadDeportiva.Ciudad" class="form-control" />
+                <span asp-validation-for="unidadDeportiva.Ciudad" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="unidadDeportiva.TorneoId" class="control-label">Torneo que usara esta Unidad</label></b>
+                <select asp-for="unidadDeportiva.TorneoId" class="form-control">
+                    <option value="">--Seleccione el Torneo--</option>
+                    @foreach (var tor in Model.lstTorneos){
+                        <option value="@tor.Id">@tor.Nombre</option>
+                    }
+                </select>
+                <span asp-validation-for="unidadDeportiva.TorneoId" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="submit" class="btn btn-success" value="Adicionar"/>
+                <a asp-page="Index" class="btn btn-info">Regresar</a>
+            </div>
+
+        </form>
+    </div>
+</div>

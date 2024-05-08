@@ -1,0 +1,68 @@
+﻿@page
+@model FrontEnd.Pages.CArbitro.DeleteModel
+@{
+    ViewData["Title"]="Eliminar Arbitro";
+}
+
+<h2>Eliminar Arbitro</h2>
+@if(ViewData["Error"]!=null){
+    <h3 class="text-danger">@ViewData["Error"]</h3>
+}else{
+    <h4 class="text-danger"><b>¿Desea Eliminar Este Registro?</b></h4>
+}
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="Delete" class="form-group">
+            <div>
+                <input asp-for="arbitro.Id" hidden/><!--Esto es para capturar el Id y borrarlo-->
+            </div>
+
+            <div class="form-group">
+                <b><label asp-for="arbitro.Documento" class="control-label"></label></b>
+                <input asp-for="arbitro.Documento" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="arbitro.Nombres" class="control-label"></label></b>
+                <input asp-for="arbitro.Nombres" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="arbitro.Apellidos" class="control-label"></label></b>
+                <input asp-for="arbitro.Apellidos" class="form-control" readonly />
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="arbitro.Deporte" class="control-label"></label></b>
+                <input asp-for="arbitro.Deporte" class="form-control" readonly />
+            </div>
+            <br>
+            <div class=form-group>
+                <b><label asp-for="arbitro.Rh" class="control-label"></label></b>
+                <input asp-for="arbitro.Rh" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="arbitro.Celular" class="control-label"></label></b>
+                <input asp-for="arbitro.Celular" class="form-control" readonly/>
+            </div>
+            <br>
+            <div>
+                <b><label asp-for="arbitro.Colegio.RazonSocial" class="control-label">Egresado del Colegio:</label></b>
+                <input asp-for="arbitro.Colegio.RazonSocial" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <b><label asp-for="arbitro.Torneo.Nombre" class="control-label">Torneo en el que participa:</label></b>
+                <input asp-for="arbitro.Torneo.Nombre" class="form-control"readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="submit" value="Eliminar" class="btn btn-success" />
+                <a asp-page="./Index" class="btn btn-info">Regresar</a>
+            </div>
+
+        </form>
+    </div>
+</div>
