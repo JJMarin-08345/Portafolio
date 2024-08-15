@@ -30,6 +30,8 @@ public class CuadradoMagico : ClassMatriz
         int lenNuevaMatriz = filas_col + (filas_col / 2) * 2;
 
         int iterableLstNumeros = 0, iterableFilas = 0, accesoColumnas = (lenNuevaMatriz / 2), iterableColumnas = lenNuevaMatriz;
+        //accesoColumnas inicia siendo la parte central de la matriz
+        //iterableColumnas inicia siendo la ultima columna de la matriz
 
         bool isAccesoColZero = false;
 
@@ -45,10 +47,10 @@ public class CuadradoMagico : ClassMatriz
                     if (c == iterableColumnas - 1)
                     {
                         iterableColumnas -= 1;
-                        Console.WriteLine("columnas = " + iterableColumnas);
+                        // Console.WriteLine("columnas = " + iterableColumnas);
                     }
 
-                    Console.WriteLine("Fila iteracion: " + iterableFilas + " Columna: " + c);
+                    // Console.WriteLine("Fila iteracion: " + iterableFilas + " Columna: " + c);
                     // Console.WriteLine(lstNumerosMatriz[iterableLstNumeros]);
                     matrizSolucion[iterableFilas, c] = lstNumerosMatriz[iterableLstNumeros];
                     iterableFilas++;

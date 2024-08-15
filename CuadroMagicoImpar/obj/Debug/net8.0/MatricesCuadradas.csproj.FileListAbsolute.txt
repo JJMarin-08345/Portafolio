@@ -40,3 +40,4 @@ C:\Users\USUARIO\Documents\GitHub\Portafolio\CuadroMagicoImpar\obj\Debug\net8.0\
 C:\Users\USUARIO\Documents\GitHub\Portafolio\CuadroMagicoImpar\obj\Debug\net8.0\MatricesCuadradas.pdb
 C:\Users\USUARIO\Documents\GitHub\Portafolio\CuadroMagicoImpar\obj\Debug\net8.0\MatricesCuadradas.genruntimeconfig.cache
 C:\Users\USUARIO\Documents\GitHub\Portafolio\CuadroMagicoImpar\obj\Debug\net8.0\ref\MatricesCuadradas.dll
+C:\Users\USUARIO\Documents\GitHub\Portafolio\CuadroMagicoImpar\obj\Debug\net8.0\MatricesCuadradas.sourcelink.json

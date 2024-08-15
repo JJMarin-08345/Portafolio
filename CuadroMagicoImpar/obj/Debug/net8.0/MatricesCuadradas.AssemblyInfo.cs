@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MatricesCuadradas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+917dde20d8a22059be21cb195f608905bc0f4ccb")]
 [assembly: System.Reflection.AssemblyProductAttribute("MatricesCuadradas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MatricesCuadradas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
