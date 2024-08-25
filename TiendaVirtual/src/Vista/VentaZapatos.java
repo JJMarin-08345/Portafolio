@@ -107,9 +107,7 @@ public class VentaZapatos extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
-        btnNike.setBackground(new java.awt.Color(255, 255, 255));
         btnNike.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        btnNike.setForeground(new java.awt.Color(0, 0, 0));
         btnNike.setText("Nike");
         btnNike.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -123,9 +121,7 @@ public class VentaZapatos extends javax.swing.JFrame {
         lblLogoAdidas.setBackground(new java.awt.Color(255, 255, 255));
         lblLogoAdidas.setForeground(new java.awt.Color(255, 255, 255));
 
-        btnAdidas.setBackground(new java.awt.Color(255, 255, 255));
         btnAdidas.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        btnAdidas.setForeground(new java.awt.Color(0, 0, 0));
         btnAdidas.setText("Adidas");
         btnAdidas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -136,9 +132,7 @@ public class VentaZapatos extends javax.swing.JFrame {
         lblLogoPuma.setBackground(new java.awt.Color(255, 255, 255));
         lblLogoPuma.setForeground(new java.awt.Color(255, 255, 255));
 
-        btnPuma.setBackground(new java.awt.Color(255, 255, 255));
         btnPuma.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        btnPuma.setForeground(new java.awt.Color(0, 0, 0));
         btnPuma.setText("Puma");
         btnPuma.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -148,17 +142,14 @@ public class VentaZapatos extends javax.swing.JFrame {
 
         lblInfoNike.setBackground(new java.awt.Color(255, 255, 255));
         lblInfoNike.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        lblInfoNike.setForeground(new java.awt.Color(0, 0, 0));
         lblInfoNike.setText("jLabel1");
 
         lblInfoPuma.setBackground(new java.awt.Color(255, 255, 255));
         lblInfoPuma.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        lblInfoPuma.setForeground(new java.awt.Color(0, 0, 0));
         lblInfoPuma.setText("jLabel1");
 
         lblInfoAdidas.setBackground(new java.awt.Color(255, 255, 255));
         lblInfoAdidas.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        lblInfoAdidas.setForeground(new java.awt.Color(0, 0, 0));
         lblInfoAdidas.setText("jLabel1");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -224,19 +215,16 @@ public class VentaZapatos extends javax.swing.JFrame {
 
         lblJordanNombre.setBackground(new java.awt.Color(153, 153, 153));
         lblJordanNombre.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        lblJordanNombre.setForeground(new java.awt.Color(0, 0, 0));
         lblJordanNombre.setText("Jordan 1 x Off-White Chicago");
         jPanel2.add(lblJordanNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 90, -1, -1));
 
         lblJordanPrecio.setBackground(new java.awt.Color(102, 102, 102));
         lblJordanPrecio.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        lblJordanPrecio.setForeground(new java.awt.Color(0, 0, 0));
         lblJordanPrecio.setText("$ 109,491,323");
         jPanel2.add(lblJordanPrecio, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 130, -1, -1));
 
         ckJordan1.setBackground(new java.awt.Color(102, 102, 102));
         ckJordan1.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        ckJordan1.setForeground(new java.awt.Color(0, 0, 0));
         ckJordan1.setText("Agregar al Carrito");
         ckJordan1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -248,19 +236,16 @@ public class VentaZapatos extends javax.swing.JFrame {
 
         lblAirMaxNombre.setBackground(new java.awt.Color(153, 153, 153));
         lblAirMaxNombre.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        lblAirMaxNombre.setForeground(new java.awt.Color(0, 0, 0));
         lblAirMaxNombre.setText("Nike Airmax 90 x Off-White ");
         jPanel2.add(lblAirMaxNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 250, -1, -1));
 
         lblAirMaxPrecio.setBackground(new java.awt.Color(102, 102, 102));
         lblAirMaxPrecio.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        lblAirMaxPrecio.setForeground(new java.awt.Color(0, 0, 0));
         lblAirMaxPrecio.setText("$ 13,186,660");
         jPanel2.add(lblAirMaxPrecio, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 290, -1, -1));
 
         ckAirMax.setBackground(new java.awt.Color(102, 102, 102));
         ckAirMax.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        ckAirMax.setForeground(new java.awt.Color(0, 0, 0));
         ckAirMax.setText("Agregar al Carrito");
         ckAirMax.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -272,19 +257,16 @@ public class VentaZapatos extends javax.swing.JFrame {
 
         lblDunkNombre.setBackground(new java.awt.Color(153, 153, 153));
         lblDunkNombre.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        lblDunkNombre.setForeground(new java.awt.Color(0, 0, 0));
         lblDunkNombre.setText("Nike Dunk x Off-White ");
         jPanel2.add(lblDunkNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 430, -1, -1));
 
         lblDunkPrecio.setBackground(new java.awt.Color(102, 102, 102));
         lblDunkPrecio.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        lblDunkPrecio.setForeground(new java.awt.Color(0, 0, 0));
         lblDunkPrecio.setText("$ 6,022,430");
         jPanel2.add(lblDunkPrecio, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 470, -1, -1));
 
         ckDunk.setBackground(new java.awt.Color(102, 102, 102));
         ckDunk.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        ckDunk.setForeground(new java.awt.Color(0, 0, 0));
         ckDunk.setText("Agregar al Carrito");
         ckDunk.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -299,17 +281,14 @@ public class VentaZapatos extends javax.swing.JFrame {
 
         lblXRayNombre.setBackground(new java.awt.Color(153, 153, 153));
         lblXRayNombre.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        lblXRayNombre.setForeground(new java.awt.Color(0, 0, 0));
         lblXRayNombre.setText("Puma X-Ray BMW Edition");
 
         lblXRayPrecio.setBackground(new java.awt.Color(102, 102, 102));
         lblXRayPrecio.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        lblXRayPrecio.setForeground(new java.awt.Color(0, 0, 0));
         lblXRayPrecio.setText("$ 520,000");
 
         ckPumaXRay.setBackground(new java.awt.Color(102, 102, 102));
         ckPumaXRay.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        ckPumaXRay.setForeground(new java.awt.Color(0, 0, 0));
         ckPumaXRay.setText("Agregar al Carrito");
         ckPumaXRay.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -319,17 +298,14 @@ public class VentaZapatos extends javax.swing.JFrame {
 
         lblXRayNombre1.setBackground(new java.awt.Color(153, 153, 153));
         lblXRayNombre1.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        lblXRayNombre1.setForeground(new java.awt.Color(0, 0, 0));
         lblXRayNombre1.setText("Puma Slipstream");
 
         lblSlipstream.setBackground(new java.awt.Color(102, 102, 102));
         lblSlipstream.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        lblSlipstream.setForeground(new java.awt.Color(0, 0, 0));
         lblSlipstream.setText("$ 720,000");
 
         ckPumaSlipstream.setBackground(new java.awt.Color(102, 102, 102));
         ckPumaSlipstream.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        ckPumaSlipstream.setForeground(new java.awt.Color(0, 0, 0));
         ckPumaSlipstream.setText("Agregar al Carrito");
         ckPumaSlipstream.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -389,17 +365,14 @@ public class VentaZapatos extends javax.swing.JFrame {
 
         lblYeezyNombre.setBackground(new java.awt.Color(153, 153, 153));
         lblYeezyNombre.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        lblYeezyNombre.setForeground(new java.awt.Color(0, 0, 0));
         lblYeezyNombre.setText("Yeezy 500 Black");
 
         lblYeezyPrecio.setBackground(new java.awt.Color(102, 102, 102));
         lblYeezyPrecio.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        lblYeezyPrecio.setForeground(new java.awt.Color(0, 0, 0));
         lblYeezyPrecio.setText("$ 1,428,960");
 
         ckYeezy.setBackground(new java.awt.Color(102, 102, 102));
         ckYeezy.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        ckYeezy.setForeground(new java.awt.Color(0, 0, 0));
         ckYeezy.setText("Agregar al Carrito");
         ckYeezy.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -407,21 +380,16 @@ public class VentaZapatos extends javax.swing.JFrame {
             }
         });
 
-        btnForumLow.setBackground(new java.awt.Color(255, 255, 255));
-
         lblForumNombre.setBackground(new java.awt.Color(153, 153, 153));
         lblForumNombre.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        lblForumNombre.setForeground(new java.awt.Color(0, 0, 0));
         lblForumNombre.setText("Forum Low - Triple White");
 
         lblForumPrecio.setBackground(new java.awt.Color(102, 102, 102));
         lblForumPrecio.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        lblForumPrecio.setForeground(new java.awt.Color(0, 0, 0));
         lblForumPrecio.setText("$ 470,000");
 
         ckForum.setBackground(new java.awt.Color(102, 102, 102));
         ckForum.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        ckForum.setForeground(new java.awt.Color(0, 0, 0));
         ckForum.setText("Agregar al Carrito");
         ckForum.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -431,17 +399,14 @@ public class VentaZapatos extends javax.swing.JFrame {
 
         lblBoostNombre.setBackground(new java.awt.Color(153, 153, 153));
         lblBoostNombre.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        lblBoostNombre.setForeground(new java.awt.Color(0, 0, 0));
         lblBoostNombre.setText("Adidas Boost 350");
 
         lblBoostPrecio.setBackground(new java.awt.Color(102, 102, 102));
         lblBoostPrecio.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        lblBoostPrecio.setForeground(new java.awt.Color(0, 0, 0));
         lblBoostPrecio.setText("$ 800,000");
 
         ckBoost350.setBackground(new java.awt.Color(102, 102, 102));
         ckBoost350.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        ckBoost350.setForeground(new java.awt.Color(0, 0, 0));
         ckBoost350.setText("Agregar al Carrito");
         ckBoost350.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -522,50 +487,42 @@ public class VentaZapatos extends javax.swing.JFrame {
         jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel10.setFont(new java.awt.Font("Consolas", 1, 24)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(0, 0, 0));
         jLabel10.setText("Carrito de Compras");
         jPanel6.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(116, 26, 251, 46));
 
         txtTotalPagar.setEditable(false);
         txtTotalPagar.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
-        txtTotalPagar.setForeground(new java.awt.Color(0, 0, 0));
         txtTotalPagar.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtTotalPagar.setText("$0");
-        jPanel6.add(txtTotalPagar, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 490, 180, -1));
+        jPanel6.add(txtTotalPagar, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 470, 180, -1));
 
         jLabel11.setFont(new java.awt.Font("Consolas", 1, 18)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel11.setText("Precio envio:");
-        jPanel6.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 370, 160, -1));
+        jLabel11.setText("Precio:");
+        jPanel6.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 350, 160, -1));
 
         jLabel12.setFont(new java.awt.Font("Consolas", 1, 18)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(0, 0, 0));
         jLabel12.setText("Cantidad de productos:");
         jPanel6.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(14, 95, 251, -1));
 
         jLabel13.setFont(new java.awt.Font("Consolas", 1, 18)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(0, 0, 0));
         jLabel13.setText("Productos seleccionados:");
         jPanel6.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, 251, -1));
 
         jLabel14.setFont(new java.awt.Font("Consolas", 1, 18)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(0, 0, 0));
         jLabel14.setText("Total a pagar:");
-        jPanel6.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 490, 160, -1));
+        jPanel6.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 470, 160, -1));
 
         txtCantidadProductos.setEditable(false);
         txtCantidadProductos.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
-        txtCantidadProductos.setForeground(new java.awt.Color(0, 0, 0));
         txtCantidadProductos.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtCantidadProductos.setText("0");
         jPanel6.add(txtCantidadProductos, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 90, 84, -1));
 
         txtPrecioSinIva.setEditable(false);
         txtPrecioSinIva.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
-        txtPrecioSinIva.setForeground(new java.awt.Color(0, 0, 0));
         txtPrecioSinIva.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtPrecioSinIva.setText("$0");
-        jPanel6.add(txtPrecioSinIva, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 370, 180, -1));
+        jPanel6.add(txtPrecioSinIva, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 350, 180, -1));
 
         tblProductosSeleccionados.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
         tblProductosSeleccionados.setModel(new javax.swing.table.DefaultTableModel(
@@ -598,19 +555,17 @@ public class VentaZapatos extends javax.swing.JFrame {
 
         txtIva.setEditable(false);
         txtIva.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
-        txtIva.setForeground(new java.awt.Color(0, 0, 0));
         txtIva.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtIva.setText("$0");
-        jPanel6.add(txtIva, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 430, 180, -1));
+        jPanel6.add(txtIva, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 410, 180, -1));
 
         jLabel15.setFont(new java.awt.Font("Consolas", 1, 18)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(0, 0, 0));
         jLabel15.setText("IVA:");
-        jPanel6.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 430, 160, -1));
+        jPanel6.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 410, 160, -1));
 
         btnOpenPagar.setFont(new java.awt.Font("Comic Sans MS", 1, 18)); // NOI18N
         btnOpenPagar.setText("PAGAR");
-        jPanel6.add(btnOpenPagar, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 560, -1, -1));
+        jPanel6.add(btnOpenPagar, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 520, -1, -1));
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -642,7 +597,7 @@ public class VentaZapatos extends javax.swing.JFrame {
     private void ckBoost350ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ckBoost350ActionPerformed
         // TODO add your handling code here:
         Producto Boost350 = new Producto("Adidas", lblBoostNombre.getText(),
-            lblBoostPrecio.getText(), Long.parseLong("" + 800000));
+                lblBoostPrecio.getText(), Long.parseLong("" + 800000));
 
         CantidadProducSeleccionados(ckBoost350, Boost350);
     }//GEN-LAST:event_ckBoost350ActionPerformed
@@ -650,7 +605,7 @@ public class VentaZapatos extends javax.swing.JFrame {
     private void ckForumActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ckForumActionPerformed
         // TODO add your handling code here:
         Producto ForumLow = new Producto("Adidas", lblForumNombre.getText(),
-            lblForumPrecio.getText(), Long.parseLong("" + 470000));
+                lblForumPrecio.getText(), Long.parseLong("" + 470000));
 
         CantidadProducSeleccionados(ckForum, ForumLow);
     }//GEN-LAST:event_ckForumActionPerformed
@@ -659,7 +614,7 @@ public class VentaZapatos extends javax.swing.JFrame {
     private void ckYeezyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ckYeezyActionPerformed
         // TODO add your handling code here:
         Producto Yeezy = new Producto("Adidas", lblYeezyNombre.getText(),
-            lblYeezyPrecio.getText(), Long.parseLong("" + 1428960));
+                lblYeezyPrecio.getText(), Long.parseLong("" + 1428960));
 
         CantidadProducSeleccionados(ckYeezy, Yeezy);
     }//GEN-LAST:event_ckYeezyActionPerformed
@@ -667,7 +622,7 @@ public class VentaZapatos extends javax.swing.JFrame {
     private void ckPumaSlipstreamActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ckPumaSlipstreamActionPerformed
         // TODO add your handling code here:
         Producto Slipstream = new Producto("Puma", lblXRayNombre1.getText(),
-            lblSlipstream.getText(), Long.parseLong(""+720000));
+                lblSlipstream.getText(), Long.parseLong("" + 720000));
 
         CantidadProducSeleccionados(ckPumaSlipstream, Slipstream);
     }//GEN-LAST:event_ckPumaSlipstreamActionPerformed
@@ -676,7 +631,7 @@ public class VentaZapatos extends javax.swing.JFrame {
     private void ckPumaXRayActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ckPumaXRayActionPerformed
         // TODO add your handling code here:
         Producto XRay = new Producto("Puma", lblXRayNombre.getText(),
-            lblXRayPrecio.getText(), Long.parseLong("" + 520000));
+                lblXRayPrecio.getText(), Long.parseLong("" + 520000));
 
         CantidadProducSeleccionados(ckPumaXRay, XRay);
     }//GEN-LAST:event_ckPumaXRayActionPerformed
@@ -684,7 +639,7 @@ public class VentaZapatos extends javax.swing.JFrame {
     private void ckDunkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ckDunkActionPerformed
         // TODO add your handling code here:
         Producto Dunk = new Producto("Nike", lblDunkNombre.getText(),
-            lblDunkPrecio.getText(), Long.parseLong("" + 6022430));
+                lblDunkPrecio.getText(), Long.parseLong("" + 6022430));
 
         CantidadProducSeleccionados(ckDunk, Dunk);
     }//GEN-LAST:event_ckDunkActionPerformed
@@ -692,13 +647,15 @@ public class VentaZapatos extends javax.swing.JFrame {
     private void ckAirMaxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ckAirMaxActionPerformed
         // TODO add your handling code here:
         Producto AirMax = new Producto("Nike", lblAirMaxNombre.getText(),
-            lblAirMaxPrecio.getText(), Long.parseLong("" + 13186660));
+                lblAirMaxPrecio.getText(), Long.parseLong("" + 13186660));
 
         CantidadProducSeleccionados(ckAirMax, AirMax);
     }//GEN-LAST:event_ckAirMaxActionPerformed
 
     private void ckJordan1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ckJordan1ActionPerformed
-
+        Producto Jordan1XOffWhite = new Producto("Nike", lblJordanNombre.getText(),
+                lblJordanPrecio.getText(), Long.parseLong("" + 109491323));
+        CantidadProducSeleccionados(ckJordan1, Jordan1XOffWhite);
     }//GEN-LAST:event_ckJordan1ActionPerformed
 
     private void btnPumaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPumaActionPerformed
@@ -716,11 +673,10 @@ public class VentaZapatos extends javax.swing.JFrame {
         TPpestanas.setSelectedIndex(1);
     }//GEN-LAST:event_btnNikeActionPerformed
 
-       
     //Funcion para mensajes en la tabla
     private void CantidadProducSeleccionados(JCheckBox botonCheck, Producto producto) {
         TotalPagar(botonCheck, producto.getValor());
-        
+
         gestionProductos.CantidadProductosSeleccionados(botonCheck,
                 tblProductosSeleccionados, txtCantidadProductos, producto);
         /* Aca invocamos a la clase GestionProductos que instanciamos al inicio de este JFrame
@@ -729,34 +685,23 @@ public class VentaZapatos extends javax.swing.JFrame {
 
     //Funcion para enviar el precio al txtTotalPagar y el precio de todos los productos con iva al txtIva
     private void TotalPagar(JCheckBox boton, Long valor) {
-        gestionProductos.TotalPagar(boton,txtPrecioSinIva,txtTotalPagar,txtIva,valor);
+        gestionProductos.TotalPagar(boton, txtPrecioSinIva, txtTotalPagar, txtIva, valor);
     }
 
-    
-    
- /*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+    /*---------------------------------------------------------------------------------------------------------------------------------------------------*/
  /*---------------------------------------------------------------------------------------------------------------------------------------------------*/
     //FUNCIONES DE CONFIGURACIÓN IMAGENES Y OTRAS COSAS
     //Funcion para ajustar la imagen al tamaño del Boton
-    private Icon AjustarImagen(String url, JButton boton) {
-        ImageIcon icon = new ImageIcon(getClass().getResource(url));
-        int ancho = boton.getWidth();
-        int alto = boton.getHeight();
-
-        ImageIcon imagenAjustada = new ImageIcon(icon.getImage()
-                .getScaledInstance(ancho, alto, Image.SCALE_DEFAULT));
-        return imagenAjustada;
-    }
-
-    //Funcion para ajustar la imagen al tamaño del Label
-    private Icon AjustarImagen(String url, JLabel label) {
-        ImageIcon icon = new ImageIcon(getClass().getResource(url));
-        int ancho = label.getWidth();
-        int alto = label.getHeight();
-
-        ImageIcon imagenAjustada = new ImageIcon(icon.getImage()
-                .getScaledInstance(ancho, alto, Image.SCALE_DEFAULT));
-        return imagenAjustada;
+    private Icon AjustarImagen(String url, int ancho, int alto) {
+        try {
+            ImageIcon icon = new ImageIcon(getClass().getResource(url));
+            ImageIcon imagenAjustada = new ImageIcon(icon.getImage()
+                    .getScaledInstance(ancho, alto, Image.SCALE_SMOOTH));
+            return imagenAjustada;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 
     //Funcion para enviar mensaje al label
@@ -778,20 +723,20 @@ public class VentaZapatos extends javax.swing.JFrame {
 
     //Funcion para enviar imagenes a todos los componentes
     private void ImagenesComponentes() {
-        lblLogoNike.setIcon(AjustarImagen("/imagenes/LogoNike.png", lblLogoNike));
-        lblLogoAdidas.setIcon(AjustarImagen("/imagenes/LogoAdidas.png", lblLogoAdidas));
-        lblLogoPuma.setIcon(AjustarImagen("/imagenes/LogoPuma.png", lblLogoPuma));
+        lblLogoNike.setIcon(AjustarImagen("/Imagenes/LogoNike.png", lblLogoNike.getWidth(), lblLogoNike.getHeight()));
+        lblLogoAdidas.setIcon(AjustarImagen("/Imagenes/LogoAdidas.png", lblLogoAdidas.getWidth(), lblLogoAdidas.getHeight()));
+        lblLogoPuma.setIcon(AjustarImagen("/Imagenes/LogoPuma.png", lblLogoPuma.getWidth(), lblLogoPuma.getHeight()));
         //Ventana Nike
-        btnJordan.setIcon(AjustarImagen("/imagenes/Jordan1xOffWhite.jpg", btnJordan));
-        btnAirMax90.setIcon(AjustarImagen("/imagenes/airmax90xOffWhite.png", btnAirMax90));
-        btnNikeDunk.setIcon(AjustarImagen("/imagenes/DunkxOffWhite.jpg", btnNikeDunk));
+        btnJordan.setIcon(AjustarImagen("/Imagenes/Jordan1xOffWhite.jpg", btnJordan.getWidth(), btnJordan.getHeight()));
+        btnAirMax90.setIcon(AjustarImagen("/Imagenes/airmax90xOffWhite.png", btnAirMax90.getWidth(), btnAirMax90.getHeight()));
+        btnNikeDunk.setIcon(AjustarImagen("/Imagenes/DunkxOffWhite.jpg", btnNikeDunk.getWidth(), btnNikeDunk.getHeight()));
         //Ventana Adidas
-        btnYeezy.setIcon(AjustarImagen("/imagenes/Yeezy500.jpg", btnYeezy));
-        btnForumLow.setIcon(AjustarImagen("/imagenes/ForumLow.jpg", btnForumLow));
-        btnBoost350.setIcon(AjustarImagen("/imagenes/Boost350.jpg", btnBoost350));
+        btnYeezy.setIcon(AjustarImagen("/Imagenes/Yeezy500.jpg", btnYeezy.getWidth(), btnYeezy.getHeight()));
+        btnForumLow.setIcon(AjustarImagen("/Imagenes/ForumLow.jpg", btnForumLow.getWidth(), btnForumLow.getHeight()));
+        btnBoost350.setIcon(AjustarImagen("/Imagenes/Boost350.jpg", btnBoost350.getWidth(), btnBoost350.getHeight()));
         //Ventana Puma
-        btnPumaXRay.setIcon(AjustarImagen("/imagenes/PumaXRay.jpg", btnPumaXRay));
-        btnPumaSlipstream.setIcon(AjustarImagen("/imagenes/PumaSlipstream.jfif", btnPumaSlipstream));
+        btnPumaXRay.setIcon(AjustarImagen("/Imagenes/PumaXRay.jpg", btnPumaXRay.getWidth(), btnPumaXRay.getHeight()));
+        btnPumaSlipstream.setIcon(AjustarImagen("/Imagenes/PumaSlipstream.jfif", btnPumaSlipstream.getWidth(), btnPumaSlipstream.getHeight()));
     }
 
     /**
@@ -887,9 +832,9 @@ public class VentaZapatos extends javax.swing.JFrame {
     private javax.swing.JLabel lblYeezyNombre;
     private javax.swing.JLabel lblYeezyPrecio;
     private javax.swing.JTable tblProductosSeleccionados;
-    private javax.swing.JTextField txtCantidadProductos;
-    private javax.swing.JTextField txtIva;
-    private javax.swing.JTextField txtPrecioSinIva;
-    private javax.swing.JTextField txtTotalPagar;
+    public static javax.swing.JTextField txtCantidadProductos;
+    public static javax.swing.JTextField txtIva;
+    public static javax.swing.JTextField txtPrecioSinIva;
+    public static javax.swing.JTextField txtTotalPagar;
     // End of variables declaration//GEN-END:variables
 }
